@@ -1,0 +1,52 @@
+{
+  "platform": "darwin",
+  "python": "3.11.16",
+  "guard_self_check_passed": true,
+  "python_network_denied": true,
+  "network_attempts": 0,
+  "audit": {
+    "valid": true,
+    "videos": 2,
+    "seconds": 2,
+    "errors": 1,
+    "full_coverage_checked": false
+  },
+  "comparison": {
+    "object_micro_f1": 1.0,
+    "people_exact": 1.0,
+    "people_within_one": 1.0,
+    "reference_seconds": 2,
+    "candidate_seconds": 2,
+    "missing_seconds": 0,
+    "extra_seconds": 0,
+    "reference_errors": 1,
+    "candidate_errors": 1,
+    "passes_diagnostic": true
+  },
+  "profile": {
+    "batch_size": 8,
+    "device": "cpu",
+    "precision": "fp32",
+    "files": [
+      {
+        "file": "smoke.parquet",
+        "expected_videos": 2,
+        "parquet_read_seconds": 0.0023918768856674433,
+        "temporary_io_seconds": 0.00041683297604322433,
+        "decode_seconds": 0.14507091790437698,
+        "inference_seconds": 2.196003333898261,
+        "aggregation_seconds": 6.362493149936199e-05,
+        "write_seconds": 0.00011716573499143124,
+        "seconds": 2.0,
+        "frames": 3.0,
+        "videos": 2.0,
+        "errors": 1.0,
+        "wall_seconds": 2.351379750063643
+      }
+    ],
+    "all_frames": true,
+    "wall_seconds": 5.773624040884897,
+    "inference_frames": 3
+  },
+  "limitations": "Host check only; this is not a fresh Linux VM, OS-wide network isolation, or an RTX 4090 benchmark."
+}

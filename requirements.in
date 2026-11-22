@@ -1,0 +1,9 @@
+# Direct runtime dependencies. requirements.txt is the exact resolved lock.
+ultralytics==8.3.70
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+av==14.2.0
+pyarrow==19.0.1
+opencv-python==4.10.0.84
+huggingface-hub==0.28.1

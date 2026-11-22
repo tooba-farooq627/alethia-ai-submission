@@ -1,0 +1,24 @@
+{
+  "batch_size": 8,
+  "device": "0",
+  "precision": "fp16",
+  "files": [
+    {
+      "file": "train-00000-of-01357.parquet",
+      "expected_videos": 3,
+      "parquet_read_seconds": 0.33844098499992015,
+      "temporary_io_seconds": 0.028008186999954887,
+      "decode_seconds": 27.082549757995025,
+      "inference_seconds": 254.24953501899665,
+      "aggregation_seconds": 0.13808471399750033,
+      "write_seconds": 0.03171197900007883,
+      "seconds": 1082.0,
+      "frames": 29782.0,
+      "videos": 3.0,
+      "wall_seconds": 281.993997585
+    }
+  ],
+  "all_frames": true,
+  "wall_seconds": 285.33069890799993,
+  "inference_frames": 29782
+}

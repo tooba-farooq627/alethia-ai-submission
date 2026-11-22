@@ -1,0 +1,39 @@
+{
+  "comparison": "Original 12 complete videos: FP16 batch8 versus FP32 reference",
+  "seconds": 3692,
+  "per_class": {
+    "person": {
+      "tp": 2679,
+      "fp": 1,
+      "fn": 1,
+      "f1": 0.9996268656716418
+    },
+    "car": {
+      "tp": 39,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0
+    },
+    "dog": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0
+    },
+    "laptop": {
+      "tp": 66,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0
+    },
+    "cell phone": {
+      "tp": 50,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0
+    }
+  },
+  "macro_f1_over_present_classes": 0.9999253731343284,
+  "reference_errors": 0,
+  "candidate_errors": 0
+}

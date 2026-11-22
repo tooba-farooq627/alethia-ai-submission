@@ -1,0 +1,32 @@
+{
+  "started_utc": "2026-11-19T21:35:20.605971+00:00",
+  "revision": "84c74091e1c6ee7a5dffabfafb5c9033e4718883",
+  "status": "broader_validation",
+  "checks": [
+    {
+      "stage": "three_complete_videos",
+      "object_micro_f1": 0.9992831541218637,
+      "people_exact": 0.9981515711645101,
+      "people_within_one": 1.0,
+      "reference_seconds": 1082,
+      "candidate_seconds": 1082,
+      "missing_seconds": 0,
+      "extra_seconds": 0,
+      "reference_errors": 0,
+      "candidate_errors": 0,
+      "passes_diagnostic": true
+    }
+  ],
+  "selected": {
+    "precision": "fp16",
+    "batch_size": 8,
+    "frames": 384,
+    "wall_seconds": 3.0826996300002065,
+    "fps": 124.56614204737627,
+    "peak_gpu_mib": 302.52880859375,
+    "frame_count_agreement": 1.0
+  },
+  "sample_wall_seconds": 300.15916358899995,
+  "sample_fps": 99.22069226172188,
+  "estimated_full_hours": 34.74574165171215
+}

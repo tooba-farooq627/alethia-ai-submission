@@ -1,0 +1,26 @@
+{
+  "source": "Saved Colab cell-0 output observed through Chrome on 2026-11-20",
+  "observations": [
+    {
+      "updated_utc": "2026-11-20T05:57:46.922446+00:00",
+      "videos": 3,
+      "shards": 0,
+      "seconds": 1082.0,
+      "errors": 0,
+      "worker_exit": null,
+      "gpu": "72 %, 683 MiB",
+      "remaining_hours_estimate": 33.22411796235215
+    },
+    {
+      "updated_utc": "2026-11-20T06:00:20.067544+00:00",
+      "videos": 6,
+      "shards": 0,
+      "seconds": 1576.0,
+      "errors": 0,
+      "worker_exit": null,
+      "gpu": "74 %, 797 MiB",
+      "remaining_hours_estimate": 34.881373965045164
+    }
+  ],
+  "current_status": "Later observed disconnected; reconnect succeeded but successful worker resumption was not verified. Historical observations are not current heartbeats."
+}

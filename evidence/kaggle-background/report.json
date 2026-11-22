@@ -1,0 +1,33 @@
+{
+  "completed_utc": "2026-11-20T20:26:57.234045+00:00",
+  "reference_sha256": "44152a178326fea8fd318c4b2ff3622fc9356af68ff6fe062f07d386cd1ae6e2",
+  "legacy_signature": "14336a3ba6a37fb6f58fbe07b28a5ccfe89b3b97f411d3dab7fda0383b0e8daa",
+  "wall_seconds": 300.02544664900006,
+  "devices": {
+    "0": {
+      "object_micro_f1": 1.0,
+      "people_exact": 1.0,
+      "people_within_one": 1.0,
+      "reference_seconds": 1082,
+      "candidate_seconds": 1082,
+      "missing_seconds": 0,
+      "extra_seconds": 0,
+      "reference_errors": 0,
+      "candidate_errors": 0,
+      "passes_diagnostic": true
+    },
+    "1": {
+      "object_micro_f1": 1.0,
+      "people_exact": 1.0,
+      "people_within_one": 1.0,
+      "reference_seconds": 1082,
+      "candidate_seconds": 1082,
+      "missing_seconds": 0,
+      "extra_seconds": 0,
+      "reference_errors": 0,
+      "candidate_errors": 0,
+      "passes_diagnostic": true
+    }
+  },
+  "passed": true
+}
